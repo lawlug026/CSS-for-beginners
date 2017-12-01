@@ -1,0 +1,32 @@
+.header{
+	width:50%;
+	margin:auto;
+	text-align:center;
+}
+
+.navmenu{
+	float: left;
+	
+}
+
+.navmain{
+	height:50px;
+	background-color: grey;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	
+}
+
+.navmenu a{
+	text-decoration: none;
+	display:block;
+	color:black;
+	padding: 14px 16px;
+}
+.navmenu a:hover{
+	background-color: black;
+	color:white;
+}
+
+
