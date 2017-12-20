@@ -1,0 +1,24 @@
+.nred{
+	background-color: hsla(25, 100%, 25%, 0.5);
+}
+.nblue{
+	background-color: #FF9C32;
+}
+.ngreen{
+	background-color: green;
+
+}
+.nwhite{
+	background-color: rgb(0,0,0);
+	color:white;
+	
+}
+.nblack{
+	background-color: rgb(138,206,223);
+
+}
+
+.ngrey{
+	background-color: #c3c3c3;
+
+}
