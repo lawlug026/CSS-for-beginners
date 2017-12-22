@@ -1,0 +1,43 @@
+CSS Background Properties:
+
+Used to define the background of the elements.
+
+Five properties are listed below:
+
+
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+
+#background-color is used to define the color of the background of the elemeent
+Color is defined by any of the three ways:
+
+By Name
+By RGB Value
+By HEX value
+By HSL value
+By HSLA value
+By RGBA Value
+
+#background-image is used to set a image as the background of the element
+
+background-image:url("path of image");
+
+==> While use of background color and image, use that color or image which will not disturb the readability of the text.
+
+
+#background-repeat: Used to repeat the background image both horizontally & vertically.
+
+By default, background-image is repeated both vertically & horizontally.
+to make an image repeat horizontally, use background-repeat:repeat-x;
+to make an image repeat vertically, use background-repeat:repeat-y;
+in case, you do not have to repeat the image at all, use background-repeat: no repeat;
+
+#background-attachment: fixed
+used to fix the background.
+will not scroll with the rest of the body.
+
+#background-position:
+used to define the background image in case of no-repeat. 

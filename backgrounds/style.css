@@ -1,0 +1,30 @@
+body{
+	background-image: url("ec2.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+	background-color: white;
+
+	
+}
+.all{
+	font-size: 30px;
+	
+}
+
+
+.two{
+	position:relative;
+	top:10px;
+	width:70%;
+	margin:auto;
+	/*background-color:red;*/
+	}
+
+
+.one{
+	
+	width:70%;
+	margin:auto;
+	/*background-color:red;*/
+	}
