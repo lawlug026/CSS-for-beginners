@@ -1,0 +1,25 @@
+.one{
+	background-color: red;
+}
+
+.two{
+	position:sticky;
+	left:50px;
+	top:0;
+	/*top:50px;*/
+	background-color: blue;
+}
+
+.parent{
+	position:relative;
+}
+.three{
+	background-color: green;
+}
+
+
+.all{
+	/*background-color: grey;*/
+	height:50px;
+	font-size: 25px;
+}

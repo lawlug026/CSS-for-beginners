@@ -1,0 +1,41 @@
+CSS Position Property:
+
+The position property specifies the type of positioning method used for an element.
+
+The Position property has Five Values:
+# Static
+# Relative
+# Absolute
+# Fixed
+# sticky
+
+Every element is started from its top-left corner. It means the reference point of every element in a HTML web page is the top-left corner of that element.
+
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+
+==>
+Static: Default position Value of every element.
+ Static positioned elements are not affected by top, left, bottom or right properties.
+ It positions the element according to the normal page - flow
+
+==>
+Relative:
+It positions the element relative to its reference point i.e the top-left corner.
+It does not disturb the  surrounding elements
+
+==>
+Absolute:
+It positions the element relative to its parent element provided the parent element is positioned to relative.
+It disturbs the environment as it leaves the space occupied by the element & floats on the web page as if it is on another layer.
+
+==>
+Fixed:
+It positions the element with respect to the root element & fixed its position.
+Its position doees not change even if the web page is scrolled up or down.
+
+==>
+Sticky:
+It can be said to be the combination of the relative & fixed.
+Stays in its original position while in its viewport.
+When its viewport is changed, it becomes fixed i.e. sticks to a position defined by the top, left, bottom & right properties.
