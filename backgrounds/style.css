@@ -1,9 +1,11 @@
 body{
-	background-image: url("ec2.png");
+	/*background-image: url("ec2.png");
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-attachment: fixed;
-	background-color: white;
+	background-color: white;*/
+
+	background: #ffffff url("ec2.png") no-repeat fixed left bottom;
 
 	
 }

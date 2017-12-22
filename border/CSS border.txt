@@ -1,0 +1,48 @@
+CSS Border:
+
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+border-style: 
+The following values are allowed:
+
+    dotted - Defines a dotted border
+    dashed - Defines a dashed border
+    solid - Defines a solid border
+    double - Defines a double border
+    groove - Defines a 3D grooved border. The effect depends on the border-color value
+    ridge - Defines a 3D ridged border. The effect depends on the border-color value
+    inset - Defines a 3D inset border. The effect depends on the border-color value
+    outset - Defines a 3D outset border. The effect depends on the border-color value
+    none - Defines no border
+    hidden - Defines a hidden border
+## border-style property is must for other border properties to work
+
+
+==> border-width: Used to define the width of the border.
+
+can be set either by specific size 
+or by predefined values: thin, medium, thick.
+
+Can have values one, two, three or four;
+
+==> border-color: Used to set the color of the border.
+
+can have one to four values.
+
+
+==> styling indivual border side:
+
+border-top;
+border-bootom;
+border-left;
+border-right;
+
+==>Values :
+4values = 	T R B L 
+3Values = 	T RL B
+2 values =	TB LR 
+1 Value = 	Same for all borders
+
+==> border-radius: Used to create the rounded borders
+
+==> shorthand

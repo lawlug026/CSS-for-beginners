@@ -41,3 +41,7 @@ will not scroll with the rest of the body.
 
 #background-position:
 used to define the background image in case of no-repeat. 
+
+ShortHand:
+
+Order: color==>Image==>Repeat==>Attachment==>Position
