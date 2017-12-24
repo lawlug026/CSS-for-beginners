@@ -1,0 +1,28 @@
+.one{
+	border: 8px solid red;
+	/*margin-top:20px;
+	margin-bottom: 20px;
+	margin-right: 60px;
+	margin-left: 50px;*/
+
+	margin-bottom: 50px;
+}
+.two{
+	margin-top:90px;
+}
+
+.outer{
+	border: 8px solid red;
+	margin-top:50px;
+
+	margin-left:20px;
+}
+.inner{
+	margin-left: inherit
+}
+
+.auto{
+	border: 1px dotted black;
+	width:100px;
+	margin:auto;
+}
