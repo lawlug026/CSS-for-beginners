@@ -1,0 +1,30 @@
+CSS Padding:
+
+The CSS padding properties are used to create space around element's content, inside of any defined borders.
+
+padding Properties:
+# padding-top
+# padding-right
+# padding-bottom
+# padding-left
+
+All these properties are used to set the margins of the element.
+All these properties can have following values:
+
+## Fixed Values
+## Percentage
+## auto
+## inherit
+
+
+
+==>inherit:
+
+With this value, the element inherits its padding properties from its parent element.
+
+Shorthand:
+padding: TRBL
+
+Width of the element:
+
+To maintain the width of the element, use the box-sizing property & its border-box value, since the value of the element increase with the increase in padding.

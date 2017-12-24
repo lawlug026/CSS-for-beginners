@@ -1,0 +1,21 @@
+.one{
+	/*padding-left:20px;
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 50px;*/
+	border: 1px dotted black;
+	width:300px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.outer{
+	margin-top:20px;
+	border: 1px dotted black;
+	padding: 55px;	
+}
+
+.inner{
+	border: 1px dotted black;
+	padding: inherit;
+}
