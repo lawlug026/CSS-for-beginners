@@ -8,12 +8,11 @@ padding Properties:
 # padding-bottom
 # padding-left
 
-All these properties are used to set the margins of the element.
+All these properties are used to set the padding of the element.
 All these properties can have following values:
 
 ## Fixed Values
 ## Percentage
-## auto
 ## inherit
 
 

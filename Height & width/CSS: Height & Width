@@ -1,0 +1,41 @@
+Today's Topics:
+
+Height
+Width
+max-width
+min-width
+Overflow
+Outline
+
+
+
+CSS: Height & Width
+
+Used to set the height & width of an element.
+
+Values: 
+Absolute Vaule
+Percentage
+auto
+
+Max-width: Specify the maximum value of the elements width which must be acquired by the element. The element can not increase its width beyond this limit.
+
+When browser window is smaller than the element width, the browser adds the scrollbar to the page.
+To avoid this use MAX-WIDTH property.
+
+Min-width: Specify the minimum value of the elements width that the element can reduced to. The element can not reduce its width beyond that limit.
+Initially, it acquires the entire width of the browser window.
+As the window size decrease, it starts decreasing its width upto the value specified by the min-width property & beyond which the browser adds a scrollbar to the element.
+
+CSS: Outline Property
+
+ An outline is a line that is drawn around elements, outside the borders, to make the element "stand out"
+
+ Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline
+
+    It always goes around all the sides, you can't specify particular sides
+    It's not a part of the box model, so it won't effect the position of the element or adjacent elements
+
+Other minor facts include that it doesn't respect border-radius (makes sense I suppose as it's not a border) and that it isn't always rectangular. If the outline goes around an inline element with different font-sizes, for instance, Opera will draw a staggered box around it all.
+
+It is often used for accessibility reasons, to emphasize a link when tabbed to without affecting positioning and in a different way than hover.
