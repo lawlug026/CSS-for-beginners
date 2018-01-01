@@ -1,0 +1,39 @@
+p{
+	/*background-color:grey;*/
+	color:blue;
+	font-size:1.5em;
+	text-decoration: underline overline;
+	text-indent: 110px;
+	line-height: 1.8;
+
+}
+
+h1{
+	text-shadow: 4px 4px 4px red
+}
+
+h1:hover{
+	letter-spacing: 5px;
+	word-spacing:5px;
+	text-align:center;
+}
+p:hover{
+	background-color: aqua;
+	width:80%;
+	margin:auto;
+
+}
+
+p::first-line{
+	text-transform: capitalize;
+}
+
+p::first-letter{
+	color:white;
+	font-size: 50px;
+}
+
+p::-moz-selection{
+	background-color: red;
+	color:yellow;
+}
