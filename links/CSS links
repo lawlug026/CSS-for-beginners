@@ -1,0 +1,17 @@
+CSS Link Properties:
+
+Links can also be styled by using CSS properties.
+
+
+There are 4 states in a link & all the states can be formatted using CSS properties.
+
+## a:link 		==>	 	unvisited link
+## a:visited 	==>		visited link
+## a:hover		==>		When a user moves the mouse pointer over it
+## a:active		==>		The moment the user clicked on a link	
+
+
+Inverted color link
+Shade Change Link
+shadow effect link
+letter change link

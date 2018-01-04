@@ -1,0 +1,47 @@
+.one, .two, .three, .four, a{
+	padding:15px;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.one a:link{
+	border: 2px solid black;
+	color:red;
+	background-color: cyan;
+}
+.one a:hover{
+	background-color: red;
+	color:cyan;
+	cursor:pointer;
+}
+.one a:visited{
+	color:black;
+}
+.one a:active{
+	background-color: black;
+	color:white;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.two a:link{
+	background-color: black;
+	color:white;
+}
+
+.two a:visited{
+	color:white;
+}
+
+.two a:hover{
+	color:white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.three a:hover{
+	text-shadow:2px 2px 5px grey;
+}
+
+.four a:hover{
+	text-decoration: underline;
+	letter-spacing:0.8px;
+}
