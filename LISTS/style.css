@@ -1,0 +1,21 @@
+.a{
+	list-style-position: inside;
+	list-style-type:square;
+	background-color: pink;
+	padding:15px;
+}
+
+.a li{
+	background-color: aqua;
+}
+
+.b{
+	list-style-type: lower-latin;
+	list-style-position: outside;
+	background-color: pink;
+	padding:15px;
+}
+
+.b li{
+	background-color: aqua;
+}
