@@ -1,0 +1,13 @@
+CSS Combinators:
+
+Explains the relationships between the selectors.
+
+There are different types of combinators:
+
+# Descendant combinators ( ): Matches all the elements that are the descendants of the specified elements.
+
+# Child combinators (>): Matches only the immediate children of the specified element.
+
+# Adjacent sibling combinators(+): Matches only the immediate siblings of the specified siblings
+
+# General siblings combinators(~) : Matches all the siblings of the specified siblings.
